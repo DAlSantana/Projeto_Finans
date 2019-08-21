@@ -1,0 +1,47 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.caixa {
+	padding: 60px; 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+  .contact-method{
+	width: 180px;
+	height: 120px;
+	display: inline-block;
+	background: #3498db;
+	margin: 10px;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+  }
+  .contact-method i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	line-height: 140px;
+	background: #34495e;
+	z-index: 1;
+	transition: transform 0.6s;
+  }
+  .contact-method span{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 10px 0;
+	background-color: green;
+  }
+  
+  .contact-method:hover i{
+	transform: translateY(-40px);
+  }
+  
